@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition-duration: 2s;
+    margin: 0;
+}
+
+.start {
+    margin: 0 !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.start .block {
+    display: block;
+}
+
+.page {
+    margin: 75px;
+}
+
+.navBar .box {
+    border: 1px solid black;
+    font-size: large;
+}
+.navBar .navButton {
+    width: 25%;
+    padding: 25px;
+    background-color: gray;
+    color: black;
+    border: none;
+    float: left;
+}
+.navBar .navButton:hover {
+    background-color: darkgray;
+}
+.navBar ul {
+    padding: 0;
+    margin-top: 25px;
+}
+.navBar li {
+    list-style: none;
+    padding-left: 25px;
+    line-height: 4;
+}
+.navBar hr {
+    color: black;
+}
+.who:hover, .desc:hover, .skill:hover, .hobbie:hover, .loPro:hover, .shPro:hover, .otPro:hover, .wWeb:hover, .wOther:hover, .mail:hover, .phone:hover, .cv:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.profil .qui {
+    display: flex;
+}
+.profil .qui .img {
+    margin-right: 10px;
+    width: 20%;
+}
+.profil .qui .img img {
+    width: 100%;
+    height: auto;
+    transition: 2s;
+}
+.profil .qui .text {
+    font-size: large;
+}
+.profil .description {
+    margin: 75px;
+}
+.profil .competence {
+    height: 40vh;
+    margin: 75px;
+}
+.profil .passion {
+    height: 40vh;
+    margin: 75px;
+}
+.profil .box {
+    display: flex;
+}
+.profil .box .miniBox {
+    margin: 0 auto;
+}
+
+.contact .block .miniblock .email, .contact .block .miniblock .call {
+    margin: 20px;
+}
+.contact .block .miniblock .email .space {
+    display: inline-block;
+    width: 5%;
+}
+.contact .block .miniblock .email input {
+    background-color: white;
+    width: 175px;
+}
+.contact .block .miniblock .email textarea {
+    resize: none;
+}
+.contact .title {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.contact .block .miniblock {
+    height: 70vh;
+}
