@@ -67,12 +67,12 @@
             <div class="competence">
                 <h1>Mes compétences :</h1>
                 <div class="box">
-                    <div class="miniBox">
+                    <!-- <div class="miniBox">
                         Web :
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>JavaScripte</li>
+                            <li>JavaScript</li>
                             <li>PHP</li>
                         </ul>
                     </div>
@@ -96,6 +96,67 @@
                         <ul>
                             <li>Anglais</li>
                             <li>Chinois</li>
+                        </ul>
+                    </div> -->
+                    <div class="miniBox">
+                        <span>Compétences Techniques</span>
+                        <ul>
+                            <li>
+                                <span>Développement Web</span>
+                                <ul>
+                                    <li>
+                                        <span>Front-end</span>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>React.js</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>Back-end</span>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>Node.js</li>
+                                            <li>Express</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>Base de données</span>
+                                        <ul>
+                                            <li>SQL</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Programmation Logicielle</span>
+                                <ul>
+                                    <li>
+                                        <span>Langage</span>
+                                        <ul>
+                                            <li>C</li>
+                                            <li>C++</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Design / Outils graphiques</span>
+                                <ul>
+                                    <li>GIMP</li>
+                                    <li>Paint</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Bureautique</span>
+                                <ul>
+                                    <li>Microsoft Word</li>
+                                    <li>Microsoft Excel</li>
+                                    <li>Microsoft PowerPoint</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
